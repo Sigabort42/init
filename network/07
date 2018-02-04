@@ -1,0 +1,3 @@
+#!/bin/bash
+
+host -t NS slash16.org 8.8.8.8 | tr -s ' ' ':' | cut -d: -f4 | nslookup | grep Address | sed '1d' | tr -s ' ' ':' | cut -d: -f2 | head -n 1

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+netstat -nr | grep default  | tr -s ' ' ':' | cut -d: -f2 | sed '/^f/d'

@@ -1,0 +1,2 @@
+/etc/resolv.conf qui est un lien vers /var/run/resolv.conf
+
