@@ -1,3 +1,7 @@
 Oui les addresses ip sont les memes .
 
-l'hebergeur de slash16.org est 'cloudfront.net'
+'amazon'
+
+host www.slash16.org | tr -s ' ' ':' | cut -d: -f4
+
+host addresse ip

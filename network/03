@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ifconfig | grep "ether" | tr -s "\t" '\r'
+ifconfig | grep "ether" | tr -s "\t" '\r' | sed -e '1d;3,10d' 
